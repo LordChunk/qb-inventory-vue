@@ -99,7 +99,33 @@
               "quality": 100
           },
           "image": "weapon_pumpshotgun.png"
-      }
+      },
+      {
+        "description": "Very useful if you lose your keys a lot.. or if you want to use it for something else...",
+        "useable": true,
+        "amount": 8,
+        "weight": 300,
+        "label": "Lockpick",
+        "image": "lockpick.png",
+        "combinable": {
+            "anim": {
+                "timeOut": 7500,
+                "lib": "weed_inspecting_high_base_inspector",
+                "text": "Crafting lockpick",
+                "dict": "anim@amb@business@weed@weed_inspecting_high_dry@"
+            },
+            "accept": [
+                "screwdriverset"
+            ],
+            "reward": "advancedlockpick"
+        },
+        "shouldClose": true,
+        "info": [],
+        "name": "lockpick",
+        "slot": 7,
+        "unique": false,
+        "type": "item"
+    }
   ],
   "Ammo": [],
   "action": "open",
